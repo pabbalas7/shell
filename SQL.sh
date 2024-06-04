@@ -15,10 +15,3 @@ else
  echo "installing mysql is success"
 fi
 
-yum insatll GIT -y
-if [ $? -ne o ]
-then
- echo "Error:Installing GIT is failed"
-else
- echo "installing GIT is success"
-fi
