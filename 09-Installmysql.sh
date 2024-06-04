@@ -6,6 +6,7 @@ then
  exit 1
 else
  echo "your a root user"
+ 
 yum install mysql -y
 if [ $? -ne o ]
 then
@@ -13,6 +14,7 @@ then
 else
  echo "installing mysql is success"
 fi
+
 yum insatll GIT -y
 if [ $? -ne o ]
 then
