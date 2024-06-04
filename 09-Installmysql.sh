@@ -20,3 +20,4 @@ then
 else
  echo "installing GIT is success"
 fi
+yum ins
